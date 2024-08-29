@@ -24,7 +24,7 @@ const Input = styled.input`
     height: 80%;
     background: transparent;
     border: none;
-    font-size: 1.25rem;
+    font-size: 1rem;
     outline: none;
 `;
 
@@ -41,7 +41,7 @@ const Btn = styled.button`
 const Caption = styled.h1`
     text-align : center;
     margin : 1rem 0;
-    font-size : 1.25rem;
+    font-size : 1rem;
     font-weight : 400;
     color : #7d7d7d;
 `;

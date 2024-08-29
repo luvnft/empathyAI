@@ -29,7 +29,7 @@ const MessageBubble = styled.pre`
     background-color: ${({ type }) => (type === 'user' ? '#007bff' : '#e9ecef')};
     color: ${({ type }) => (type === 'user' ? '#fff' : '#000')};
     max-width: 90%; 
-    font-size: 1.25rem;
+    font-size: 1rem;
     word-wrap: break-word;
     overflow: auto;
     white-space: pre-wrap;
