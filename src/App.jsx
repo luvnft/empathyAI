@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import EmpathyAI from './components/empathyAI';
+import EmpathyAI from './components/EmpathyAI';
 import './App.css'
 
 export default function App() {
