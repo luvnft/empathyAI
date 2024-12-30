@@ -44,11 +44,11 @@ export default function Chats({ chats = [] }) {
                     <ChatWrapper key={index} type={chat.type || 'user'}>
                         <MessageBubble type={chat.type || 'user'}>
                             {chat.type === 'user' ? (
-                                chat.message || ''
+                                chat.content || ''
                             ) : (
                                 <Typewriter
                                     onInit={(typewriter) => {
-                                        typewriter.typeString(chat.message || '')
+                                        typewriter.typeString(chat.content || '')
                                             .start();
                                     }}
                                     options={{
