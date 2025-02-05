@@ -5,7 +5,7 @@ import Footer from './Footer';
 import getGroqChatCompletion from '../services/groqChatCompletion';
 
 export default function EmpathyAI() {
-    const [chats, setChats] = useState([{type : 'assistant', content : `Hi there, I'm EmpathyAI. I'm here to listen and support you. Feel free to share whatever’s on your mind, and we’ll work through it together.`}]);
+    const [chats, setChats] = useState([{type : 'assistant', content : `Hi there, I'm 988NJ AI. I'm here to listen and support you. Feel free to share whatever’s on your mind, and we’ll work through it together.`}]);
     const [prompt, setPrompt] = useState("");
 
     useEffect(() => {
