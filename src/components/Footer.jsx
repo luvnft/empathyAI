@@ -77,7 +77,7 @@ export default function Footer({ setPrompt }) {
                 </Btn>
             </ChatBoxForm>
             <Caption>
-                Developed by <a href={"https://kjcreddy666.github.io/portfolio"} target="_blank" rel="noopener noreferrer"> Jay </a>
+                Developed by <a href={"https://hahz.live"} target="_blank" rel="noopener noreferrer"> Wizard of Hahz </a>
             </Caption>
         </StyledFooter>
     );
