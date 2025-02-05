@@ -67,7 +67,7 @@ export default function Footer({ setPrompt }) {
         <StyledFooter>
             <ChatBoxForm onSubmit={handleOnSubmit}>
                 <Input
-                    placeholder="Message EmpathyAI"
+                    placeholder="Message 988NJ AI"
                     value={value}
                     onChange={handleOnChange}
                     required
